@@ -1,0 +1,82 @@
+/* Desktop nav + CTA group */
+.nav__desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav__desktop {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+  }
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  list-style: none;
+}
+
+.nav__link {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Mobile menu toggle */
+.nav__toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--color-text-primary);
+  background: none;
+  border: none;
+  border-radius: var(--radius-button);
+}
+
+@media (min-width: 768px) {
+  .nav__toggle {
+    display: none;
+  }
+}
+
+/* Mobile panel: wraps to its own full-width line inside the header's
+   flex row (see Header.css) rather than needing a separate DOM parent. */
+.nav__mobile-panel {
+  display: none;
+}
+
+.nav__mobile-panel--open {
+  display: block;
+  flex-basis: 100%;
+  border-top: var(--border-default);
+  padding-top: var(--space-3);
+}
+
+@media (min-width: 768px) {
+  .nav__mobile-panel {
+    display: none !important;
+  }
+}
+
+.nav__mobile-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-bottom: var(--space-3);
+  list-style: none;
+}
+
+.nav__mobile-cta {
+  width: 100%;
+  margin-top: var(--space-2);
+}
