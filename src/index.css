@@ -121,6 +121,14 @@ select:focus-visible,
   text-decoration: none;
 }
 
+/* ---------- Section heading (reused by page sections) ---------- */
+.section-heading {
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
 /* ---------- Layout ---------- */
 .container {
   width: 100%;
