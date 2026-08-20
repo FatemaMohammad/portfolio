@@ -1,11 +1,12 @@
 import Header from './components/Header/Header'
+import Hero from './sections/Hero/Hero'
 
 function App() {
   return (
     <>
       <Header />
-      <main className="container">
-        <h1>Portfolio</h1>
+      <main>
+        <Hero />
       </main>
     </>
   )

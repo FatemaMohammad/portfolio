@@ -1,0 +1,29 @@
+.hero {
+  padding-block: var(--space-7);
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-block: var(--space-8);
+  }
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-width: 44rem;
+}
+
+.hero__heading {
+  font-size: var(--font-size-hero);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.hero__subheading {
+  font-size: var(--font-size-body-lg);
+  line-height: var(--line-height-base);
+  color: var(--color-text-secondary);
+}
