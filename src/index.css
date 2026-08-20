@@ -1,24 +1,113 @@
-* {
+@import './styles/tokens.css';
+
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
+/* ---------- Base ---------- */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+small {
+  font-size: var(--font-size-small);
+  color: var(--color-text-secondary);
+}
+
+/* ---------- Typography ---------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: var(--font-size-heading);
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* ---------- Buttons & form elements ---------- */
 button,
 input,
 textarea,
 select {
   font: inherit;
+  color: inherit;
 }
 
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- Images ---------- */
 img {
   max-width: 100%;
   display: block;
+}
+
+/* ---------- Focus states ---------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+  padding-inline: var(--page-padding-mobile);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: var(--page-padding-tablet);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-inline: var(--page-padding-desktop);
+  }
 }
