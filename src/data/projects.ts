@@ -2,21 +2,46 @@ import type { Project } from '../types/project';
 
 export const projects: Project[] = [
   {
-    title: 'Full-stack project title',
+    title: 'Appointment Booking System',
+    role: 'Full-Stack Developer – Personal Project',
     description:
-      'One or two sentences on the problem this solved and your role, e.g. a full-stack C#/.NET API with a React front end.',
-    tags: ['C#', '.NET', 'React', 'SQL'],
+      'A full-stack appointment booking system with secure login, real-time slot availability, and booking/cancellation management.',
+    tags: ['C#', 'ASP.NET Core', 'EF Core', 'SQLite', 'JWT', 'React', 'TypeScript', 'Vite'],
+    highlights: [
+      'Clean/domain-driven architecture (Domain, Application, Infrastructure, API layers)',
+      'JWT-secured REST API with protected endpoints',
+      'Booking logic prevents past-date and conflicting slot bookings',
+      'Cancellations update status rather than deleting records',
+    ],
+    repoUrl: 'https://github.com/FatemaMohammad/appointment-booking-system',
   },
   {
-    title: 'React project title',
+    title: 'EG Healthcare Chat',
+    role: 'Frontend Developer – Bachelor Project (Team of 4)',
     description:
-      'One or two sentences on the problem this solved and your role, e.g. a React application with a focus on accessibility and component testing.',
-    tags: ['React', 'TypeScript'],
+      "Bachelor's degree final project developed in collaboration with EG Healthcare, as part of a team of four.",
+    tags: ['React', 'TypeScript', 'Vite', 'Axios', 'JWT', 'GitHub Actions', 'GitHub Pages'],
+    highlights: [
+      'User directory with search and filtering',
+      'User status management',
+      'One-to-one chat with sending/receiving messages',
+      'Read receipts and unread message counts',
+      'Authenticated REST API integration',
+    ],
   },
   {
-    title: 'QA project title',
+    title: 'WeZimplify CRM Dashboard',
+    role: 'Frontend Developer – Take-Home Assignment',
     description:
-      'One or two sentences on the problem this solved and your role, e.g. an automated test suite covering API and UI regression testing.',
-    tags: ['QA', 'Test Automation'],
+      'A responsive CRM dashboard designed and developed as a frontend take-home assignment for WeZimplify, with a focus on reusable components, clear information hierarchy, and responsive UI.',
+    tags: ['React 19', 'TypeScript', 'Tailwind CSS 4', 'Vite'],
+    highlights: [
+      'Responsive desktop and mobile dashboard',
+      'Reusable component-based architecture',
+      'KPI, project, customer, task, and activity views',
+      'Interactive task list',
+      'Type-safe mock data with TypeScript',
+    ],
+    scope: 'Frontend/UI implementation using mock data.',
   },
 ];

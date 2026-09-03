@@ -39,9 +39,32 @@
   color: var(--color-text-primary);
 }
 
+.project-card__role {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+}
+
 .project-card__description {
   font-size: var(--font-size-body);
   line-height: var(--line-height-base);
+  color: var(--color-text-secondary);
+}
+
+.project-card__highlights {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding-left: var(--space-4);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-base);
+  color: var(--color-text-secondary);
+  list-style: disc;
+}
+
+.project-card__scope {
+  font-size: var(--font-size-small);
+  font-style: italic;
   color: var(--color-text-secondary);
 }
 
