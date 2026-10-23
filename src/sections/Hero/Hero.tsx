@@ -1,3 +1,4 @@
+
 import './Hero.css';
 
 function Hero() {
@@ -5,11 +6,14 @@ function Hero() {
     <section id="hero" className="hero">
       <div className="container hero__inner">
         <h1 className="hero__heading">
-          Software Engineer building reliable, user-focused software.
+          Hi, I'm Fatema — Software Engineer
         </h1>
+
         <p className="hero__subheading">
-          I work across C#/.NET, React and software testing, combining development and QA
-          experience to build maintainable, high-quality solutions.
+          AI & Software Consultant with experience in
+          C#/.NET, React, TypeScript, and software testing.
+          I enjoy building practical solutions that combine
+          software engineering, AI, and automation.
         </p>
       </div>
     </section>

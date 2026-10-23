@@ -9,16 +9,21 @@ function About() {
         </div>
         <div className="about__content">
           <h2 className="section-heading">About</h2>
+
           <p className="about__bio">
-            I&apos;m a Software Engineer with a background in C#/.NET and full-stack web
-            development, currently focused on building reliable, well-tested applications with
-            React on the front end. I care as much about how software is verified as how it&apos;s
-            built — combining hands-on development with a strong QA and testing mindset to catch
-            issues before they reach users. I enjoy working across the stack, from designing clean
-            APIs to shaping accessible, maintainable interfaces, and I&apos;m looking for
-            opportunities to bring that combination of engineering and quality focus to a team in
-            Denmark.
+            I&apos;m a Software Engineer currently working as an AI & Software
+            Consultant at Dynamics Inspire, where I focus on AI solutions,
+            workflow automation, and software integrations.
+
+            My background includes software development with C#, .NET,
+            React, TypeScript, and REST APIs, as well as hands-on
+            experience in software testing and quality assurance.
+
+            I enjoy building practical software solutions, solving
+            technical challenges, and continuously developing my
+            skills in software engineering and AI.
           </p>
+
         </div>
       </div>
     </section>
