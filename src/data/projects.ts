@@ -4,8 +4,10 @@ export const projects: Project[] = [
   {
     title: 'Appointment Booking System',
     role: 'Full-Stack Developer – Personal Project',
-    description:
-      'A full-stack appointment booking system with secure login, real-time slot availability, and booking/cancellation management.',
+
+description:
+  'A full-stack appointment booking application built with ASP.NET Core and React. The system provides secure authentication, appointment management, and booking validation to prevent scheduling conflicts.',
+
     tags: ['C#', 'ASP.NET Core', 'EF Core', 'SQLite', 'JWT', 'React', 'TypeScript', 'Vite'],
     highlights: [
       'Clean/domain-driven architecture (Domain, Application, Infrastructure, API layers)',
@@ -29,19 +31,21 @@ export const projects: Project[] = [
       'Authenticated REST API integration',
     ],
   },
-  {
-    title: 'WeZimplify CRM Dashboard',
-    role: 'Frontend Developer – Take-Home Assignment',
-    description:
-      'A responsive CRM dashboard designed and developed as a frontend take-home assignment for WeZimplify, with a focus on reusable components, clear information hierarchy, and responsive UI.',
-    tags: ['React 19', 'TypeScript', 'Tailwind CSS 4', 'Vite'],
-    highlights: [
-      'Responsive desktop and mobile dashboard',
-      'Reusable component-based architecture',
-      'KPI, project, customer, task, and activity views',
-      'Interactive task list',
-      'Type-safe mock data with TypeScript',
-    ],
-    scope: 'Frontend/UI implementation using mock data.',
-  },
+
+{
+  title: 'CRM Dashboard',
+  role: 'Frontend Developer – Personal Portfolio Project',
+  description:
+    'A responsive CRM dashboard built with React and TypeScript, focusing on reusable components, clean UI design, and structured data presentation.',
+  tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+  highlights: [
+    'Responsive desktop and mobile layout',
+    'Reusable React components',
+    'KPI, project, customer, and activity views',
+    'Interactive task management',
+    'Type-safe mock data using TypeScript',
+  ],
+  scope: 'Frontend implementation using mock data.',
+},
+
 ];
