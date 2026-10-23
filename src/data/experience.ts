@@ -1,23 +1,53 @@
+
 import type { Experience } from '../types/experience';
 
 export const experience: Experience[] = [
   {
-    role: 'Software Engineer',
-    company: 'Company name',
-    period: '2023 — Present',
+    role: 'AI & Software Consultant',
+    company: 'Dynamics Inspire',
+    period: 'Sep 2026 – Present',
     description:
-      'One or two sentences on your responsibilities, e.g. building and maintaining C#/.NET APIs and React front ends for an internal platform.',
+      'Working with AI solutions, software development, and workflow automation using Microsoft Power Platform, Copilot Studio, and Dynamics 365 Business Central.',
     highlights: [
-      'Highlight a project or improvement you shipped',
-      'Highlight a testing/QA practice you introduced',
+      'Developing business solutions with Power Apps and Power Automate.',
+      'Working with Business Central integrations and REST APIs.',
+      'Exploring practical AI solutions for business processes.',
     ],
   },
   {
-    role: 'Junior Developer',
-    company: 'Company name',
-    period: '2021 — 2023',
+    role: 'QA Tester',
+    company: 'Vores Forening',
+    period: 'Aug 2025 – Jan 2026',
     description:
-      'One or two sentences on your responsibilities, e.g. contributing to full-stack features and writing automated tests under senior guidance.',
-    highlights: ['Highlight a feature you built', 'Highlight what you learned or improved'],
+      'Performed software testing to help improve application quality and reliability.',
+    highlights: [
+      'Performed manual, system, and regression testing.',
+      'Created and maintained test cases.',
+      'Supported consistent test coverage and quality assurance.',
+    ],
+  },
+  {
+    role: 'Frontend Developer – Bachelor Project',
+    company: 'EG',
+    period: 'Aug 2025 – Jan 2026',
+    description:
+      'Developed the frontend of an internal healthcare chat application as part of a bachelor project in collaboration with EG.',
+    highlights: [
+      'Developed frontend functionality using React and TypeScript.',
+      'Integrated frontend features with REST APIs.',
+      'Collaborated with a team of four developers.',
+    ],
+  },
+  {
+    role: 'Software Developer Intern',
+    company: 'EG',
+    period: 'Aug 2024 – Jan 2025',
+    description:
+      'Contributed to software development using C#, .NET, and Blazor.',
+    highlights: [
+      'Developed software features using C# and .NET.',
+      'Worked with backend functionality and REST APIs.',
+      'Gained practical experience in professional software development.',
+    ],
   },
 ];
