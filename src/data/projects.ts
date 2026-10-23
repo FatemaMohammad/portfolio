@@ -45,6 +45,7 @@ description:
     'Interactive task management',
     'Type-safe mock data using TypeScript',
   ],
+  repoUrl: 'https://github.com/FatemaMohammad/crm-dashboard.git',
   scope: 'Frontend implementation using mock data.',
 },
 
